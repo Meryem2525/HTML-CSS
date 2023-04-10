@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satır ve Sutun oluşturma</title>
+    <style>
+      .tablo {
+        text-align: center;
+        border-collapse: collapse;
+        width: 600px;
+        height: 600px;
+        margin: auto;
+        margin-top: 100px;
+        transform: scale(1.1);
+        transition: 1s transform;
+      }
+      #bir{
+background-color: aquamarine;     
+ }
+ #iki{
+    background-color: burlywood;
+ }
+ #üç{
+    background-color: chartreuse;
+ }
+ #dört{
+    background-color: darkgreen;
+ }
+ #beş{
+background-color: deepskyblue;
+ }
+ #altı{
+    background-color: darkslategray;
+ }
+ #yedi{
+    background-color: mediumpurple;
+ }
+ #sekiz{
+    background-color: yellow;
+ }
+ #dokuz{
+    background-color: darkgoldenrod;
+ }
+ #on{
+    background-color: darkcyan;
+ }
+ #onbir{
+    background-color:fuchsia;
+ }
+ #oniki{
+    background-color: palevioletred;
+ }
+    </style>
+
+    
+  </head>
+  <body>
+    <table class="tablo" border="2">
+      <tr>
+        <td id="bir" rowspan="3">1</td>
+        <td id="iki">2</td>
+        <td id="üç" colspan="3">3</td>
+      </tr>
+      <tr>
+        <td id="dört">4</td>
+        <td id="beş">5</td>
+        <td id="altı" colspan="2">6</td>
+      </tr>
+      <tr>
+        <td id="yedi" colspan="4">7</td>
+      </tr>
+      <tr>
+        <td id="sekiz" rowspan="2">8</td>
+        <td id="dokuz" colspan="2">9</td>
+        <td id="on" colspan="2">10</td>
+      </tr>
+      <tr>
+        <td id="onbir" colspan="2">11</td>
+        <td id="oniki" colspan="2">12</td>
+      </tr>
+    </table>
+  </body>
+</html>
